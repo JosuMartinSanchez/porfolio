@@ -1,5 +1,8 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import "./home.css";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { TbFileDownload } from "react-icons/tb";
+import { IconContext } from "react-icons";
 function Home() {
   const { text } = useTypewriter({
     words: [
@@ -16,7 +19,8 @@ function Home() {
 
   return (
     <div id="home">
-      <img src="../foto carnet.jpg" alt="Profile-img" />
+      <img src="../my-photo.jpg" alt="Profile-img" />
+
       <div id="text-container">
         <h1>Josu Martín Sanchez</h1>
         <p
@@ -26,16 +30,24 @@ function Home() {
         >
           Soy Josu Martín Sanchez, Junior Full Stack developer y estoy buscando
           la oportunidad para,
-          <span style={{ color: "blue", fontWeight: "bold" }}>
+          <span style={{ color: "#0250A3", fontWeight: "bold" }}>
             {text}
             <Cursor />
           </span>
         </p>
-        <div id="button-container">
-          <button>Linkedlin</button>
-          <button>github</button>
-          <button>CV</button>
-        </div>
+        <IconContext.Provider value={{ color: "#0250A3", size: "2em" }}>
+          <div id="button-container">
+            <a href="https://www.linkedin.com/in/josu-mart%C3%ADn-s%C3%A1nchez-3b459a239/">
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/JosuMartinSanchez">
+              <FaGithub />
+            </a>
+            <a href="../cv.pdf" download>
+              <TbFileDownload />
+            </a>
+          </div>
+        </IconContext.Provider>
       </div>
     </div>
   );

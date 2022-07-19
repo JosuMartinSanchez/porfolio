@@ -4,22 +4,34 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: #e5e6e8;
+  font-family: "Alice", serif;
 }
 
 #home img {
-  width: 20rem;
+  width: 38rem;
   border-radius: 25px;
-  height: 20rem;
+  height: 38rem;
 }
 
 #text-container {
-  height: 45%;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
   width: 50%;
+}
+
+#text-container h1 {
+  color: #0250a3;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+}
+
+#text-container p {
+  font-size: 2rem;
 }
 
 #button-container {
