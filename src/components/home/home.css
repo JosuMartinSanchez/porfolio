@@ -4,17 +4,17 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #e5e6e8;
+
   font-family: "Alice", serif;
 }
 
 #home img {
-  width: 38rem;
+  width: 30rem;
   border-radius: 25px;
-  height: 38rem;
+  height: 30rem;
 }
 
-#text-container {
+#text-container-home {
   height: 20rem;
   display: flex;
   flex-direction: column;
@@ -24,13 +24,13 @@
   width: 50%;
 }
 
-#text-container h1 {
+#text-container-home h1 {
   color: #0250a3;
   font-size: 3rem;
   font-family: "Playfair Display", serif;
 }
 
-#text-container p {
+#text-container-home p {
   font-size: 2rem;
 }
 

@@ -1,0 +1,23 @@
+#about-container {
+  height: 100vmin;
+  margin-left: 10em;
+  margin-right: 10em;
+  font-family: "Alice", serif;
+}
+
+#about-container h2 {
+  font-family: "Playfair Display", serif;
+  color: #0250a3;
+  font-size: 4em;
+}
+
+#about-text {
+  font-size: 2em;
+}
+#text-container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

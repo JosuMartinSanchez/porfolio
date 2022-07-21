@@ -1,0 +1,49 @@
+#skill-container {
+  height: 100vmin;
+  margin-left: 10em;
+  margin-right: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#skill-container h2 {
+  font-family: "Playfair Display", serif;
+  color: #0250a3;
+  font-size: 4em;
+}
+
+#skill-container h3 {
+  font-family: "Playfair Display", serif;
+  color: #0250a3;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+#logo-container {
+  display: grid;
+  grid-template-columns: 10em 10em 10em 10em 10em;
+  grid-template-rows: 8em 8em 8em;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: space-around;
+}
+
+#logo-container img {
+  width: 6em;
+}
+
+#sk-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Alice", serif;
+  font-size: 25px;
+}
+
+#sk-container li {
+  list-style: none;
+}
+#sk-container li::before {
+  content: "-";
+}

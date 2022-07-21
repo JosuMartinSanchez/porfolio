@@ -21,7 +21,7 @@ function Home() {
     <div id="home">
       <img src="../my-photo.jpg" alt="Profile-img" />
 
-      <div id="text-container">
+      <div id="text-container-home">
         <h1>Josu Martín Sanchez</h1>
         <p
           style={{
@@ -35,7 +35,7 @@ function Home() {
             <Cursor />
           </span>
         </p>
-        <IconContext.Provider value={{ color: "#0250A3", size: "2em" }}>
+        <IconContext.Provider value={{ color: "#0250A3", size: "3em" }}>
           <div id="button-container">
             <a href="https://www.linkedin.com/in/josu-mart%C3%ADn-s%C3%A1nchez-3b459a239/">
               <FaLinkedin />
