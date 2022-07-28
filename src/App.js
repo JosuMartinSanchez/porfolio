@@ -4,6 +4,8 @@ import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Skills from "./components/skills/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "./components/contact-form/Contact";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Contact />
+      <Projects />
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./skills.css";
+import { IconContext } from "react-icons";
+import { IoIosArrowDown } from "react-icons/io";
 
 function Skills() {
   return (
@@ -41,6 +43,13 @@ function Skills() {
           <li>Adaptabilidad</li>
           <li>Pensamiento crítico</li>
         </ul>
+      </div>
+      <div id="arrow-container">
+        <IconContext.Provider value={{ color: "#0250A3", size: "5em" }}>
+          <a href="#skill-container">
+            <IoIosArrowDown />
+          </a>
+        </IconContext.Provider>
       </div>
     </div>
   );

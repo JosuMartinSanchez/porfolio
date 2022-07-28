@@ -1,3 +1,13 @@
+#home-container {
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-family: "Alice", serif;
+}
+
 #home {
   height: 100vmin;
   display: flex;

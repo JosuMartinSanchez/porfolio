@@ -2,7 +2,9 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import "./home.css";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbFileDownload } from "react-icons/tb";
+import { IoIosArrowDown } from "react-icons/io";
 import { IconContext } from "react-icons";
+import { motion } from "framer-motion";
 function Home() {
   const { text } = useTypewriter({
     words: [
@@ -18,37 +20,52 @@ function Home() {
   });
 
   return (
-    <div id="home">
-      <img src="../my-photo.jpg" alt="Profile-img" />
+    <div id="home-container">
+      <div id="home">
+        <img src="../my-photo.jpg" alt="Profile-img" />
 
-      <div id="text-container-home">
-        <h1>Josu Martín Sanchez</h1>
-        <p
-          style={{
-            fontWeight: "normal",
-          }}
-        >
-          Soy Josu Martín Sanchez, Junior Full Stack developer y estoy buscando
-          la oportunidad para,
-          <span style={{ color: "#0250A3", fontWeight: "bold" }}>
-            {text}
-            <Cursor />
-          </span>
-        </p>
-        <IconContext.Provider value={{ color: "#0250A3", size: "3em" }}>
-          <div id="button-container">
-            <a href="https://www.linkedin.com/in/josu-mart%C3%ADn-s%C3%A1nchez-3b459a239/">
-              <FaLinkedin />
-            </a>
-            <a href="https://github.com/JosuMartinSanchez">
-              <FaGithub />
-            </a>
-            <a href="../cv.pdf" download>
-              <TbFileDownload />
-            </a>
-          </div>
-        </IconContext.Provider>
+        <div id="text-container-home">
+          <h1>Josu Martín Sanchez</h1>
+          <p
+            style={{
+              fontWeight: "normal",
+            }}
+          >
+            Soy Josu Martín Sanchez, Junior Full Stack developer y estoy
+            buscando la oportunidad para,
+            <span style={{ color: "#0250A3", fontWeight: "bold" }}>
+              {text}
+              <Cursor />
+            </span>
+          </p>
+          <IconContext.Provider value={{ color: "#0250A3", size: "4em" }}>
+            <div id="button-container">
+              <a
+                href="https://www.linkedin.com/in/josu-mart%C3%ADn-s%C3%A1nchez-3b459a239/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/JosuMartinSanchez"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaGithub />
+              </a>
+              <a href="../cv.pdf" download>
+                <TbFileDownload />
+              </a>
+            </div>
+          </IconContext.Provider>
+        </div>
       </div>
+      <IconContext.Provider value={{ color: "#0250A3", size: "5em" }}>
+        <a href="#about-container">
+          <IoIosArrowDown />
+        </a>
+      </IconContext.Provider>
     </div>
   );
 }

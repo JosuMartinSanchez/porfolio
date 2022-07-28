@@ -1,5 +1,8 @@
 import React from "react";
 import "./about.css";
+import { IconContext } from "react-icons";
+import { IoIosArrowDown } from "react-icons/io";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -14,7 +17,12 @@ function About() {
           la ilusión de aprender nuevas competencias para poder ir creciendo y
           logrando objetivos en mi carrera personal y profesional.
         </p>
-        <a href="#home">ajlasljdslasjfldsalsldlkas</a>
+
+        <IconContext.Provider value={{ color: "#0250A3", size: "3em" }}>
+          <a href="#skill-container">
+            <IoIosArrowDown />
+          </a>
+        </IconContext.Provider>
       </div>
     </div>
   );
