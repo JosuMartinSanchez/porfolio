@@ -26,7 +26,6 @@
 }
 
 #arrow-container {
-  height: 100vmin;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
