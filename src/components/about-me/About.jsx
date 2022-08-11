@@ -18,7 +18,7 @@ function About() {
           logrando objetivos en mi carrera personal y profesional.
         </p>
 
-        <IconContext.Provider value={{ color: "#0250A3", size: "3em" }}>
+        <IconContext.Provider value={{ color: "#0250A3", size: "5em" }}>
           <a href="#skill-container">
             <IoIosArrowDown />
           </a>

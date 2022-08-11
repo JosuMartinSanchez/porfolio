@@ -6,7 +6,8 @@ import Card from "react-bootstrap/Card";
 import "./projects.css";
 function Projects() {
   return (
-    <>
+    <div id="project-general-container">
+      <h2>Proyectos</h2>
       <div id="project-container">
         <div className="card-container">
           <Card style={{}} className="card">
@@ -19,10 +20,17 @@ function Projects() {
                 desde la parte superior de la pantalla.
               </Card.Text>
               <div className="demo-container">
-                <button href="https://josumartinsanchez.github.io/IronHack-IHFighter/">
-                  Ver Demo
-                </button>
                 <a
+                  className="demo-button"
+                  href="https://josumartinsanchez.github.io/IronHack-IHFighter/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Ver Demo
+                </a>
+
+                <a
+                  className="repo-link"
                   href="https://github.com/JosuMartinSanchez/IronHack-IHFighter"
                   rel="noreferrer"
                   target="_blank"
@@ -41,13 +49,20 @@ function Projects() {
               <Card.Text>
                 Aplicación básica en la que verás una interfaz donde podrás
                 comprobar tus criptodivisas favoritas en tiempo real y calcular
-                tus beneficios.
+                tus beneficios según el precio actual.
               </Card.Text>
               <div className="demo-container">
-                <button href="https://cwall-tracker.herokuapp.com/">
-                  Ver App
-                </button>
                 <a
+                  className="demo-button"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://cwall-tracker.herokuapp.com/"
+                >
+                  Ver App
+                </a>
+
+                <a
+                  className="repo-link"
                   href="https://github.com/pelayotrives/cwall-tracker"
                   rel="noreferrer"
                   target="_blank"
@@ -69,21 +84,31 @@ function Projects() {
                 profesional para ofrecer los servicios.
               </Card.Text>
               <div className="demo-container">
-                <button href="https://drforest.netlify.app/">Ver App</button>
+                <a
+                  className="demo-button"
+                  href="https://drforest.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Ver App
+                </a>
+
                 <div id="a-container">
                   <a
+                    className="repo-link"
                     href="https://github.com/JosuMartinSanchez/dr.forest-server"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Repositorio backend
+                    Backend
                   </a>
                   <a
+                    className="repo-link"
                     href="https://github.com/pol1987/dr.forest-client"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Repositorio frontend
+                    Frontend
                   </a>
                 </div>
               </div>
@@ -98,7 +123,7 @@ function Projects() {
           </a>
         </IconContext.Provider>
       </div>
-    </>
+    </div>
   );
 }
 

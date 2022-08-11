@@ -1,0 +1,12 @@
+#contacts-container {
+  margin-left: 10em;
+  margin-right: 10em;
+  height: 100vh;
+}
+fieldset {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
