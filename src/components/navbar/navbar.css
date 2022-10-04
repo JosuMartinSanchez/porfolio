@@ -1,3 +1,38 @@
 #navbar-container {
-  background-color: #0250a3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 95px;
+  width: 100%;
+}
+
+#link-container {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navLink {
+  text-decoration: none;
+  color: #0250a3;
+  font-size: 23px;
+  font-weight: bolder;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  transition: background-size 0.3s;
+  font-family: "Playfair Display", serif;
+}
+
+.navLink:hover,
+.navLink:focus {
+  background-size: 100% 3px;
+}
+.navLink:link,
+.navLink:visited,
+.navLink:active {
+  text-decoration: none;
 }

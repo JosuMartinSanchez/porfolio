@@ -7,10 +7,10 @@ import "./contact.css";
 function Contact() {
   return (
     <div id="contacts-container">
-      <h2>Contactame:</h2>
+      <h2>Contacto:</h2>
       <p>
         Mediante este formulario podrás ponerte en contacto conmigo si te
-        interesa mi perfil.
+        interesa mi perfil:
       </p>
       <fieldset>
         <label>
@@ -30,6 +30,7 @@ function Contact() {
           <textarea placeholder="Escriba aquí sus observaciones"></textarea>
         </label>
       </fieldset>
+      <div></div>
 
       <div id="arrow-container">
         <IconContext.Provider value={{ color: "#0250A3", size: "5em" }}>

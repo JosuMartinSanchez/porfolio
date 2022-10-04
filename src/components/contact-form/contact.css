@@ -2,11 +2,36 @@
   margin-left: 10em;
   margin-right: 10em;
   height: 100vh;
+  font-family: "Alice", serif;
 }
 fieldset {
   height: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+input,
+textarea {
+  display: block;
+  margin-top: 1em;
+}
+
+input {
+  width: 240px;
+  height: 30px;
+  border: none;
+  box-shadow: 6px 8px #808080;
+}
+
+textarea {
+  width: 240px;
+  height: 90px;
+  box-shadow: 6px 8px #808080;
+}
+
+input,
+textarea :active {
+  border: #0250a3;
 }

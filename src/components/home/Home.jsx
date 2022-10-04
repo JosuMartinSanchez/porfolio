@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbFileDownload } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
 import { IconContext } from "react-icons";
-import { motion } from "framer-motion";
+import CV from "../../assets/CVJosuMartín.pdf";
 function Home() {
   const { text } = useTypewriter({
     words: [
@@ -54,7 +54,12 @@ function Home() {
               >
                 <FaGithub />
               </a>
-              <a href="../cv.pdf" download>
+              <a
+                href={CV}
+                download="CV-JosuMartín.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <TbFileDownload />
               </a>
             </div>
