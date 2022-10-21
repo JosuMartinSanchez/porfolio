@@ -4,12 +4,39 @@
   height: 100vh;
   font-family: "Alice", serif;
 }
+
+#pIntro {
+  font-size: 25px;
+  font-stretch: semi-expanded;
+}
+
+#formOther-container {
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 fieldset {
   height: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+
+label {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 
 input,
@@ -20,7 +47,7 @@ textarea {
 
 input {
   width: 240px;
-  height: 30px;
+  height: 35px;
   border: none;
   box-shadow: 6px 8px #808080;
 }
@@ -31,7 +58,107 @@ textarea {
   box-shadow: 6px 8px #808080;
 }
 
-input,
-textarea :active {
+input:active {
   border: #0250a3;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #e3ebfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 220px;
+  height: 70px;
+  border: none;
+  outline: none;
+  background: #0250a3;
+  color: #aeaeae;
+  font-size: 27px;
+  font-weight: bolder;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 1.2);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+#btnText {
+  margin-top: 12px;
+}
+
+.check-box {
+  width: 75px;
+  height: 70px;
+  border-radius: 40px;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: -40px;
+  opacity: 0;
+}
+
+.check-box svg {
+  width: 40px;
+  margin: 20px;
+}
+
+#svgPath {
+  stroke-width: 5px;
+  stroke: rgb(1, 117, 36);
+  stroke-dasharray: 34;
+  stroke-dashoffset: 34;
+  stroke-linecap: round;
+  align-items: center;
+}
+
+.active {
+  background: #bee7b8;
+  transition: 1s;
+}
+
+.active .check-box {
+  right: 0;
+  opacity: 1;
+  transition: 1s;
+}
+
+.active p {
+  margin-right: 70px;
+  transition: 1s;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+.active #svgPath {
+  stroke-dashoffset: 0;
+  transition: 1s;
+  transition-delay: 1s;
+}
+/* Other Contact */
+
+#otherContact-Container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.contactIcon {
+  margin-right: 8px;
+}
+
+.iconTxt {
+  font-size: 25px;
+}
+
+.iconText-container {
+  margin-top: 6em;
 }

@@ -118,7 +118,7 @@ function Projects() {
       </div>
       <div id="arrow-container">
         <IconContext.Provider value={{ color: "#0250A3", size: "5em" }}>
-          <a href="#home-container" rel="noreferrer" target="_blank">
+          <a href="#home-container" rel="noreferrer">
             <IoIosArrowUp />
           </a>
         </IconContext.Provider>
