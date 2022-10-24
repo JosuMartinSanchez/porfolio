@@ -50,3 +50,236 @@
   justify-content: space-evenly;
   width: 100%;
 }
+
+@media screen and (min-width: 320px) {
+  #home-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #text-container-home h1 {
+    color: #0250a3;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+  }
+
+  #home img {
+    width: 150px;
+    border-radius: 25px;
+    height: 150px;
+  }
+
+  #text-container-home p {
+    font-size: 17px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 480px) {
+  #home-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Alice", serif;
+    background-color: aqua;
+  }
+
+  #home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #text-container-home h1 {
+    color: #0250a3;
+    font-size: 44px;
+    font-family: "Playfair Display", serif;
+  }
+
+  #home img {
+    width: 250px;
+    border-radius: 25px;
+    height: 250px;
+  }
+
+  #text-container-home p {
+    font-size: 20px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 765px) {
+  #home-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Alice", serif;
+  }
+
+  #home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #text-container-home h1 {
+    color: #0250a3;
+    font-size: 44px;
+    font-family: "Playfair Display", serif;
+  }
+
+  #home img {
+    width: 250px;
+    border-radius: 25px;
+    height: 250px;
+  }
+
+  #text-container-home p {
+    font-size: 25px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #home-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Alice", serif;
+    background-color: blue;
+  }
+
+  #home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #text-container-home h1 {
+    color: #0250a3;
+    font-size: 44px;
+    font-family: "Playfair Display", serif;
+  }
+
+  #home img {
+    width: 250px;
+    border-radius: 25px;
+    height: 250px;
+  }
+
+  #text-container-home p {
+    font-size: 25px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  #home-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Alice", serif;
+    background-color: aqua;
+  }
+
+  #home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #text-container-home h1 {
+    color: #0250a3;
+    font-size: 44px;
+    font-family: "Playfair Display", serif;
+  }
+
+  #home img {
+    width: 250px;
+    border-radius: 25px;
+    height: 250px;
+  }
+
+  #text-container-home p {
+    font-size: 25px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #home-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Alice", serif;
+    background-color: aqua;
+  }
+
+  #home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Alice", serif;
+  }
+
+  #text-container-home h1 {
+    color: #0250a3;
+    font-size: 44px;
+    font-family: "Playfair Display", serif;
+  }
+
+  #home img {
+    width: 250px;
+    border-radius: 25px;
+    height: 250px;
+  }
+
+  #text-container-home p {
+    font-size: 25px;
+    height: 170px;
+  }
+}

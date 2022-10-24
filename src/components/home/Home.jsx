@@ -38,7 +38,10 @@ function Home() {
               <Cursor />
             </span>
           </p>
-          <IconContext.Provider value={{ color: "#0250A3", size: "4em" }}>
+          <IconContext.Provider
+            id="home-icons"
+            value={{ color: "#0250A3", size: "4em" }}
+          >
             <div id="button-container">
               <a
                 href="https://www.linkedin.com/in/josu-mart%C3%ADn-s%C3%A1nchez-3b459a239/"
