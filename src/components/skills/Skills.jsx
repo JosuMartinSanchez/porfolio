@@ -2,6 +2,7 @@ import React from "react";
 import "./skills.css";
 import { IconContext } from "react-icons";
 import { IoIosArrowDown } from "react-icons/io";
+import createUtilityClassName from "react-bootstrap/esm/createUtilityClasses";
 
 function Skills() {
   return (
@@ -45,7 +46,9 @@ function Skills() {
         </ul>
       </div>
       <div id="arrow-container">
-        <IconContext.Provider value={{ color: "#0250A3", size: "5em" }}>
+        <IconContext.Provider
+          value={{ color: "#0250A3", size: "5", className: "arrow" }}
+        >
           <a href="#contacts-container">
             <IoIosArrowDown />
           </a>

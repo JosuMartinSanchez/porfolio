@@ -21,3 +21,29 @@
   align-items: center;
   align-content: center;
 }
+
+@media screen and (min-width: 320px) {
+  #about-container {
+    height: 100vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Alice", serif;
+  }
+
+  #about-container h2 {
+    font-family: "Playfair Display", serif;
+    color: #0250a3;
+    font-size: 3em;
+  }
+
+  #about-text {
+    font-size: 2px;
+  }
+  #text-container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}

@@ -47,3 +47,57 @@
 #sk-container li::before {
   content: "-";
 }
+@media screen and (min-width: 320px) {
+  #skill-container {
+    height: 92vh;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #skill-container h2 {
+    font-family: "Playfair Display", serif;
+    color: #0250a3;
+    font-size: 30px;
+    margin-left: 25px;
+  }
+
+  #skill-container h3 {
+    font-family: "Playfair Display", serif;
+    color: #0250a3;
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: underline;
+  }
+
+  #logo-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: space-around;
+  }
+
+  #logo-container img {
+    width: 25px;
+  }
+
+  #sk-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Alice", serif;
+    font-size: 15px;
+  }
+
+  #sk-container li {
+    list-style: none;
+  }
+  #sk-container li::before {
+    content: "-";
+  }
+}
