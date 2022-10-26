@@ -47,7 +47,7 @@ function Skills() {
       </div>
       <div id="arrow-container">
         <IconContext.Provider
-          value={{ color: "#0250A3", size: "5", className: "arrow" }}
+          value={{ color: "#0250A3", size: "5em", className: "arrow" }}
         >
           <a href="#contacts-container">
             <IoIosArrowDown />
