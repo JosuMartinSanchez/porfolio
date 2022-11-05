@@ -144,11 +144,10 @@ function Contact() {
           </form>
         </div>
         <div id="otherContact-Container">
+          <h3>Información de Contacto</h3>
           <IconContext.Provider
-            id="icons"
             value={{
               color: "#0250A3",
-              size: "3em",
             }}
           >
             <div className="iconText-container">
